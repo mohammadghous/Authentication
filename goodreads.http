@@ -1,0 +1,41 @@
+###
+
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{   
+    "name":"ghouse",
+    "username":"ghouse123",
+    "password": "ghouse@456",
+    "gender": "Male",
+    "location":"Andhra pradesh"
+}
+###
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+    "username":"ghouse123",
+    "password": "ghouse@456"
+}
+###
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{   
+    "name":"ghouser",
+    "username":"ghouser123",
+    "password": "ghouser@456",
+    "gender": "Male",
+    "location":"Andhra pradesh"
+}
+###
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+    "username":"ghouser123",
+    "password": "ghouser@456"
+}
+###
